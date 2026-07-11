@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Paschal Duru — Founder & CEO of Podium Industries Limited. Entrepreneur, Construction Expert, Security Systems Visionary." />
+  <title>Paschal Duru | Founder & CEO — Podium Industries Limited</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://podiumgroups.com.ng/wp-content/uploads/2024/07/cropped-icon3-270x270.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════
+     PAGE LOADER
+     ═══════════════════════════════════════════════ -->
+<div id="page-loader">
+  <div class="loader-logo">PD</div>
+  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     SCROLL PROGRESS
+     ═══════════════════════════════════════════════ -->
+<div id="scroll-progress"></div>
+
+<!-- ═══════════════════════════════════════════════
+     SCROLL TO TOP
+     ═══════════════════════════════════════════════ -->
+<button id="scroll-top" aria-label="Back to top">↑</button>
+
+<!-- ═══════════════════════════════════════════════
+     LIGHTBOX
+     ═══════════════════════════════════════════════ -->
+<div id="lightbox" role="dialog" aria-modal="true">
+  <button id="lightbox-close" aria-label="Close lightbox">✕</button>
+  <img id="lightbox-img" src="" alt="" />
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     MOBILE MENU
+     ═══════════════════════════════════════════════ -->
+<nav class="mobile-menu" aria-label="Mobile navigation">
+  <a href="#hero">Home</a>
+  <a href="#about">About</a>
+  <a href="#values">Leadership</a>
+  <a href="#company">Company</a>
+  <a href="#projects">Projects</a>
+  <a href="#statistics">Stats</a>
+  <a href="#testimonials">Testimonials</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- ═══════════════════════════════════════════════
+     NAVBAR
+     ═══════════════════════════════════════════════ -->
+<header id="navbar" role="banner">
+  <div class="nav-inner">
+
+    <a href="#hero" class="nav-logo" aria-label="Podium Industries Limited">
+      <img src="https://podiumgroups.com.ng/wp-content/uploads/2024/07/cropped-logo3.png"
+           alt="Podium Industries Limited Logo"
+           onerror="this.style.display='none'" />
+      <div class="nav-logo-text">
+        Paschal Duru
+        <span>Podium Industries Limited</span>
+      </div>
+    </a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#values">Leadership</a>
+      <a href="#company">Company</a>
+      <a href="#projects">Projects</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+
+    <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════════════
+     HERO
+     ═══════════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-grid-lines"></div>
+
+  <!-- Left: Text -->
+  <div class="hero-left">
+    <div class="hero-eyebrow">
+      <div class="hero-eyebrow-line"></div>
+      <span class="hero-eyebrow-text">Welcome to my portfolio</span>
+    </div>
+
+    <h1 class="hero-name">
+      Paschal
+      <em class="shimmer-text">Duru</em>
+    </h1>
+
+    <p class="hero-title">Founder &amp; CEO — Podium Industries Limited</p>
+
+    <div class="hero-tags">
+      <span class="hero-tag">Entrepreneur</span>
+      <span class="hero-tag">Business Leader</span>
+      <span class="hero-tag">Construction Expert</span>
+      <span class="hero-tag">Security Systems</span>
+      <span class="hero-tag">Visionary Executive</span>
+    </div>
+
+    <div class="hero-actions">
+      <a href="#projects" class="btn-gold ripple-container">
+        <span>View Portfolio</span>
+        <span>→</span>
+      </a>
+      <a href="#contact" class="btn-outline">
+        Contact Me
+      </a>
+    </div>
+  </div>
+
+  <!-- Right: Image -->
+  <div class="hero-right">
+    <div class="hero-img-wrap">
+      <img src="images/paschal-duru.jpg"
+           alt="Paschal Duru, Founder and CEO of Podium Industries Limited"
+           loading="eager" />
+      <div class="hero-img-overlay"></div>
+      <div class="hero-img-overlay-bottom"></div>
+    </div>
+  </div>
+
+  <!-- Scroll hint -->
+  <div class="hero-scroll-hint">
+    <div class="scroll-line"></div>
+    <span>Scroll to explore</span>
+  </div>
+
+  <!-- Hero stats -->
+  <div class="hero-stats-bar">
+    <div class="hero-stat">
+      <div class="hero-stat-num" data-count="15" data-suffix="+">0+</div>
+      <div class="hero-stat-label">Years Experience</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num" data-count="200" data-suffix="+">0+</div>
+      <div class="hero-stat-label">Projects Completed</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num" data-count="100" data-suffix="+">0+</div>
+      <div class="hero-stat-label">Happy Clients</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     ABOUT
+     ═══════════════════════════════════════════════ -->
+<section id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+
+      <!-- Image Column -->
+      <div class="reveal-left">
+        <div class="about-img-wrap">
+          <div class="about-img-accent float"></div>
+          <div class="about-img-frame">
+            <img src="images/paschal-duru.jpg"
+                 alt="Paschal Duru" loading="lazy" />
+          </div>
+          <div class="about-img-accent2 float" style="animation-delay:1s;"></div>
+          <div class="about-badge pulse-glow">
+            <div class="about-badge-num">15+</div>
+            <div class="about-badge-label">Years of<br>Excellence</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content Column -->
+      <div class="reveal-right">
+        <span class="section-eyebrow">About Me</span>
+        <h2 class="section-title">A Visionary Leader<br><em>Shaping Nigeria's Future</em></h2>
+        <div class="gold-line"></div>
+
+        <p class="about-bio">
+          <strong>Paschal Duru</strong> is the Founder and Chief Executive Officer of
+          <strong>Podium Industries Limited</strong>, one of Nigeria's foremost companies
+          specialising in the design, supply, installation, and maintenance of low voltage
+          electronic security and safety systems. With over a decade and a half of dedicated
+          service, he has built an organisation that stands at the intersection of innovation,
+          integrity, and excellence.
+        </p>
+        <p class="about-bio">
+          Under his visionary leadership, Podium Industries has grown from a local enterprise
+          into a trusted partner for individuals, private and public establishments, banks,
+          financial institutions, government agencies, and international organisations — including
+          the oil and gas sector. Paschal's philosophy is simple: <em style="color:var(--gold)">"Preserve lives,
+          protect property, and exceed every expectation."</em>
+        </p>
+        <p class="about-bio">
+          His deep technical expertise, coupled with a relentless drive for quality, has earned
+          Podium Industries an outstanding reputation for reliability and service excellence
+          across Nigeria.
+        </p>
+
+        <!-- Timeline -->
+        <div class="timeline" style="margin-top:40px;">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">Foundation</div>
+            <div class="timeline-role">Founded Podium Industries Limited</div>
+            <div class="timeline-desc">Established the company with a mission to deliver world-class electronic security and safety systems across Nigeria.</div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">Growth Phase</div>
+            <div class="timeline-role">Expanded to Construction &amp; General Contracting</div>
+            <div class="timeline-desc">Diversified into building construction, road construction, and wooden pallet production for multinationals.</div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">Today</div>
+            <div class="timeline-role">CEO &amp; Industry Leader</div>
+            <div class="timeline-desc">Leading a company that serves government agencies, banks, oil &amp; gas companies, and international organisations with unmatched expertise.</div>
+          </div>
+
+        </div>
+
+        <div style="margin-top:36px; display:flex; gap:16px; flex-wrap:wrap;">
+          <a href="#company" class="btn-gold ripple-container"><span>Our Company</span><span>→</span></a>
+          <a href="https://www.podiumgroups.com.ng" target="_blank" rel="noopener" class="btn-outline">Visit Podium Website</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     LEADERSHIP VALUES
+     ═══════════════════════════════════════════════ -->
+<section id="values">
+  <div class="section-inner">
+    <div style="text-align:center; max-width:640px; margin:0 auto;">
+      <span class="section-eyebrow reveal">Leadership Philosophy</span>
+      <h2 class="section-title reveal reveal-delay-1">Principles That<br><em>Drive Excellence</em></h2>
+      <div class="gold-line reveal reveal-delay-2" style="margin:20px auto;"></div>
+      <p class="section-subtitle reveal reveal-delay-3" style="margin:0 auto;">
+        Every decision, every project, every relationship is guided by a set of core values
+        that have defined Podium Industries from day one.
+      </p>
+    </div>
+
+    <div class="values-grid" style="margin-top:60px;">
+
+      <div class="glass-card value-card reveal reveal-delay-1">
+        <div class="value-icon">🏆</div>
+        <h3 class="value-title">Leadership</h3>
+        <p class="value-desc">Inspiring teams, clients, and communities through decisive action, strategic thinking, and a clear vision for Nigeria's future.</p>
+      </div>
+
+      <div class="glass-card value-card reveal reveal-delay-2">
+        <div class="value-icon">💡</div>
+        <h3 class="value-title">Innovation</h3>
+        <p class="value-desc">Embracing cutting-edge technology in security, safety, and construction to deliver solutions that are ahead of the curve.</p>
+      </div>
+
+      <div class="glass-card value-card reveal reveal-delay-3">
+        <div class="value-icon">🤝</div>
+        <h3 class="value-title">Integrity</h3>
+        <p class="value-desc">Unwavering honesty and transparency in every engagement — with clients, partners, employees, and the wider community.</p>
+      </div>
+
+      <div class="glass-card value-card reveal reveal-delay-2">
+        <div class="value-icon">⭐</div>
+        <h3 class="value-title">Excellence</h3>
+        <p class="value-desc">A relentless commitment to quality standards that consistently exceed expectations on every project, regardless of scale.</p>
+      </div>
+
+      <div class="glass-card value-card reveal reveal-delay-3">
+        <div class="value-icon">🔭</div>
+        <h3 class="value-title">Vision</h3>
+        <p class="value-desc">A forward-thinking approach that positions Podium Industries as the foremost Extra Low Voltage service provider in Nigeria.</p>
+      </div>
+
+      <div class="glass-card value-card reveal reveal-delay-4">
+        <div class="value-icon">🌍</div>
+        <h3 class="value-title">Community</h3>
+        <p class="value-desc">Building not just structures and systems, but lasting relationships and sustainable impact across Nigerian communities.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     COMPANY & SERVICES
+     ═══════════════════════════════════════════════ -->
+<section id="company">
+  <div class="section-inner">
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center; margin-bottom:70px;">
+      <div>
+        <span class="section-eyebrow reveal">Our Company</span>
+        <h2 class="section-title reveal reveal-delay-1">Podium Industries<br><em>Limited</em></h2>
+        <div class="gold-line reveal reveal-delay-2"></div>
+      </div>
+      <div>
+        <p class="reveal reveal-delay-2" style="color:var(--silver); line-height:1.9; margin-bottom:16px;">
+          <strong style="color:var(--pearl);">Podium Industries Limited</strong> is a foremost Nigerian company
+          specialising in the design, supply, installation and maintenance of low voltage electronic
+          security and safety systems. Our systems provide comprehensive solutions for
+          <strong style="color:var(--gold);">preserving lives, property, and facilities.</strong>
+        </p>
+        <p class="reveal reveal-delay-3" style="color:var(--silver); line-height:1.9;">
+          We also stock fire alarm detection devices, communication cables, and a wide range of
+          safety equipment, serving clients across banking, oil &amp; gas, government, and manufacturing sectors.
+        </p>
+        <p class="reveal reveal-delay-4" style="margin-top:16px; color:var(--silver);">
+          📍 <strong style="color:var(--pearl);">Head Office:</strong> 30, Enugu Crescent, Agbara Estate, Ogun State, Nigeria.<br>
+          📞 <strong style="color:var(--pearl);">Phone:</strong> +234 903 592 5104<br>
+          🕐 <strong style="color:var(--pearl);">Hours:</strong> Mon–Sat, 7:30 AM – 7:30 PM
+        </p>
+      </div>
+    </div>
+
+    <!-- Services Grid -->
+    <div class="services-grid">
+
+      <div class="glass-card service-card reveal reveal-delay-1">
+        <div class="service-num">01</div>
+        <div class="service-icon">🏗️</div>
+        <h3 class="service-name">Building Construction</h3>
+        <p class="service-desc">Leading building contractor for companies and individuals across Nigeria — residential, commercial, and industrial projects.</p>
+      </div>
+
+      <div class="glass-card service-card reveal reveal-delay-2">
+        <div class="service-num">02</div>
+        <div class="service-icon">🛣️</div>
+        <h3 class="service-name">Road Construction</h3>
+        <p class="service-desc">Expert construction of roads, bridges, and infrastructure that connect communities and support national development.</p>
+      </div>
+
+      <div class="glass-card service-card reveal reveal-delay-3">
+        <div class="service-num">03</div>
+        <div class="service-icon">📹</div>
+        <h3 class="service-name">CCTV Systems</h3>
+        <p class="service-desc">Full design, supply, and installation of closed circuit television surveillance systems for comprehensive security coverage.</p>
+      </div>
+
+      <div class="glass-card service-card reveal reveal-delay-1">
+        <div class="service-num">04</div>
+        <div class="service-icon">🔥</div>
+        <h3 class="service-name">Fire Protection Systems</h3>
+        <p class="service-desc">Fire detection, fire &amp; gas detection, FM200 suppression systems, sprinklers, and hand-held extinguisher solutions.</p>
+      </div>
+
+      <div class="glass-card service-card reveal reveal-delay-2">
+        <div class="service-num">05</div>
+        <div class="service-icon">🔐</div>
+        <h3 class="service-name">Access Control</h3>
+        <p class="service-desc">Biometric systems, turnstiles, door entry systems, intruder detection, panic alarms, and advanced perimeter protection (electric fence).</p>
+      </div>
+
+      <div class="glass-card service-card reveal reveal-delay-3">
+        <div class="service-num">06</div>
+        <div class="service-icon">⚡</div>
+        <h3 class="service-name">Fence Electrification</h3>
+        <p class="service-desc">Advanced perimeter protection through state-of-the-art electric fence systems designed to deter intrusion and protect assets.</p>
+      </div>
+
+      <div class="glass-card service-card reveal reveal-delay-1">
+        <div class="service-num">07</div>
+        <div class="service-icon">📦</div>
+        <h3 class="service-name">Wooden Pallets</h3>
+        <p class="service-desc">Production of high-quality wooden pallets supplied to multinational companies and industrial clients across Nigeria.</p>
+      </div>
+
+      <div class="glass-card service-card reveal reveal-delay-2">
+        <div class="service-num">08</div>
+        <div class="service-icon">🔊</div>
+        <h3 class="service-name">Public Address Systems</h3>
+        <p class="service-desc">Design and installation of PA systems, structured cabling (LAN &amp; WAN), and extra low voltage communication infrastructure.</p>
+      </div>
+
+      <div class="glass-card service-card reveal reveal-delay-3">
+        <div class="service-num">09</div>
+        <div class="service-icon">🏦</div>
+        <h3 class="service-name">Bank Security</h3>
+        <p class="service-desc">Anti-robbery doors, bulletproof vests (VIP &amp; operations), and advanced entrance systems for financial institutions.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     STATISTICS
+     ═══════════════════════════════════════════════ -->
+<section id="statistics">
+  <div class="section-inner">
+    <div style="text-align:center; margin-bottom:70px;">
+      <span class="section-eyebrow reveal">Our Track Record</span>
+      <h2 class="section-title reveal reveal-delay-1">Numbers That<br><em>Tell the Story</em></h2>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-item reveal reveal-delay-1">
+        <div class="stat-number" data-count="15" data-suffix="+">0</div>
+        <div class="stat-label">Years of Experience</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-2">
+        <div class="stat-number" data-count="200" data-suffix="+">0</div>
+        <div class="stat-label">Completed Projects</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-3">
+        <div class="stat-number" data-count="150" data-suffix="+">0</div>
+        <div class="stat-label">Happy Clients</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-4">
+        <div class="stat-number" data-count="50" data-suffix="+">0</div>
+        <div class="stat-label">Team Members</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-5">
+        <div class="stat-number" data-count="12" data-suffix="">0</div>
+        <div class="stat-label">Industry Awards</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     PROJECTS
+     ═══════════════════════════════════════════════ -->
+<section id="projects">
+  <div class="section-inner">
+    <div style="display:flex; align-items:flex-end; justify-content:space-between; flex-wrap:wrap; gap:20px;">
+      <div>
+        <span class="section-eyebrow reveal">Portfolio</span>
+        <h2 class="section-title reveal reveal-delay-1">Featured<br><em>Projects</em></h2>
+      </div>
+      <a href="https://podiumgroups.com.ng/our-projects/" target="_blank" rel="noopener" class="btn-outline reveal" style="margin-bottom:8px;">View All Projects</a>
+    </div>
+
+    <!-- Filters -->
+    <div class="projects-filter">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="construction">Construction</button>
+      <button class="filter-btn" data-filter="security">Security</button>
+      <button class="filter-btn" data-filter="supply">Supply</button>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card reveal reveal-delay-1" data-category="construction">
+        <div class="project-img">
+          <img src="images/oto-awori.jpg"
+               alt="Oto-Awori LCDA Project" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>🏗️</div>'" />
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Construction</div>
+          <h3 class="project-name">Oto-Awori LCDA</h3>
+          <p class="project-desc">Infrastructure and construction project for the Oto-Awori Local Council Development Area.</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-2" data-category="construction">
+        <div class="project-img">
+          <img src="images/Faculty-of-Arts.jpg"
+               alt="Faculty of Arts Project" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>🏛️</div>'" />
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Construction</div>
+          <h3 class="project-name">Faculty of Arts</h3>
+          <p class="project-desc">Construction and facility management for a prominent faculty building.</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-3" data-category="supply">
+        <div class="project-img">
+          <img src="images/wooden-pallets-stacked-high.jpg"
+               alt="Wooden Pallet Production" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>📦</div>'" />
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Supply</div>
+          <h3 class="project-name">Wooden Pallet Production</h3>
+          <p class="project-desc">Large-scale wooden pallet manufacturing and supply for multinational clients.</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-1" data-category="supply">
+        <div class="project-img">
+          <img src="images/Supply of Official Cars.jpg"
+               alt="Supply of Official Cars" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>🚗</div>'" />
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Supply</div>
+          <h3 class="project-name">Supply of Official Cars</h3>
+          <p class="project-desc">Fleet management and supply of official vehicles for corporate and government clients.</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-2" data-category="security">
+        <div class="project-img">
+          <img src="images/20260711_200847.jpg" alt="">
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Security</div>
+          <h3 class="project-name">CCTV Installation — Banking Sector</h3>
+          <p class="project-desc">Comprehensive CCTV surveillance system installation across multiple bank branches for enhanced security coverage.</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-3" data-category="security">
+        <div class="project-img">
+          <img src="images/fire protection.jpg" alt="">
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Security</div>
+          <h3 class="project-name">Fire Protection — Industrial Facility</h3>
+          <p class="project-desc">End-to-end fire detection, alarm, and FM200 suppression system for a major industrial manufacturing complex.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     TESTIMONIALS
+     ═══════════════════════════════════════════════ -->
+<section id="testimonials">
+  <div class="section-inner">
+    <div style="text-align:center; max-width:640px; margin:0 auto 60px;">
+      <span class="section-eyebrow reveal">Testimonials</span>
+      <h2 class="section-title reveal reveal-delay-1">What Clients<br><em>Say About Us</em></h2>
+    </div>
+
+    <div class="testimonial-slider reveal">
+      <div class="testimonial-track">
+
+        <div class="testimonial-card">
+          <p class="testimonial-quote">
+            Podium Industries delivered our fire protection and CCTV systems with exceptional
+            professionalism. Mr. Duru's team showed a level of technical competence that was
+            truly outstanding. We've never felt more secure.
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">🏦</div>
+            <div>
+              <div class="testimonial-name">Bank Client — Lagos</div>
+              <div class="testimonial-role">Financial Institution</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-quote">
+            Working with Paschal Duru on our facility construction project was a pleasure. His
+            attention to quality, his team's work ethic, and his personal involvement ensured
+            we got a world-class result delivered on time.
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">🏛️</div>
+            <div>
+              <div class="testimonial-name">Government Agency — Ogun State</div>
+              <div class="testimonial-role">Public Institution</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-quote">
+            Podium's access control and electric fence system has transformed our perimeter
+            security. The installation was seamless, the team was courteous, and the after-sales
+            support has been excellent. Highly recommended.
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">🏭</div>
+            <div>
+              <div class="testimonial-name">Manufacturing Company — Nigeria</div>
+              <div class="testimonial-role">Industrial Client</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-quote">
+            As an international organisation operating in Nigeria, we needed a partner we could
+            trust for our security systems. Podium Industries, under Mr. Duru's leadership,
+            has been exactly that — reliable, skilled, and truly professional.
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">🌍</div>
+            <div>
+              <div class="testimonial-name">International Organisation</div>
+              <div class="testimonial-role">Oil &amp; Gas Sector</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="slider-controls">
+        <button class="slider-btn slider-prev" aria-label="Previous">←</button>
+        <div class="slider-dots">
+          <button class="slider-dot active" aria-label="Slide 1"></button>
+          <button class="slider-dot" aria-label="Slide 2"></button>
+          <button class="slider-dot" aria-label="Slide 3"></button>
+          <button class="slider-dot" aria-label="Slide 4"></button>
+        </div>
+        <button class="slider-btn slider-next" aria-label="Next">→</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     GALLERY
+     ═══════════════════════════════════════════════ -->
+<section id="gallery">
+  <div class="section-inner">
+    <div style="text-align:center; max-width:640px; margin:0 auto;">
+      <span class="section-eyebrow reveal">Gallery</span>
+      <h2 class="section-title reveal reveal-delay-1">A Glimpse of<br><em>Our Work</em></h2>
+      <div class="gold-line reveal reveal-delay-2" style="margin:20px auto;"></div>
+      <p class="section-subtitle reveal reveal-delay-3" style="margin:0 auto;">Click any image to view full size.</p>
+    </div>
+
+    <div class="gallery-grid" style="margin-top:60px;">
+
+      <div class="gallery-item reveal">
+        <img src="images/paschal-duru.jpg" alt="Paschal Duru, CEO" loading="lazy" />
+        <div class="gallery-overlay">🔍</div>
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="images/oto-awori.jpg"
+             alt="Oto-Awori LCDA Project" loading="lazy"
+             onerror="this.src=''" />
+        <div class="gallery-overlay">🔍</div>
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="images/Faculty-of-Arts.jpg"
+             alt="Faculty of Arts" loading="lazy"
+             onerror="this.src=''" />
+        <div class="gallery-overlay">🔍</div>
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="images/wooden-pallets-stacked-high.jpg"
+             alt="Wooden Pallets" loading="lazy"
+             onerror="this.src=''" />
+        <div class="gallery-overlay">🔍</div>
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="images/Supply of Official Cars.jpg"
+             alt="Supply of Official Cars" loading="lazy"
+             onerror="this.src=''" />
+        <div class="gallery-overlay">🔍</div>
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="https://podiumgroups.com.ng/wp-content/uploads/2024/07/14_mission_statement_examples_to_inspire_Blog_960x540px.v4-2.jpg"
+             alt="Our Mission" loading="lazy"
+             onerror="this.src=''" />
+        <div class="gallery-overlay">🔍</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     CONTACT
+     ═══════════════════════════════════════════════ -->
+<section id="contact">
+  <div class="section-inner">
+    <div style="text-align:center; max-width:640px; margin:0 auto;">
+      <span class="section-eyebrow reveal">Get In Touch</span>
+      <h2 class="section-title reveal reveal-delay-1">Let's Build<br><em>Something Great</em></h2>
+      <div class="gold-line reveal reveal-delay-2" style="margin:20px auto;"></div>
+      <p class="section-subtitle reveal reveal-delay-3" style="margin:0 auto;">
+        Have a project in mind? Looking to partner with Podium Industries? I'd love to hear from you.
+      </p>
+    </div>
+
+    <div class="contact-grid" style="margin-top:70px;">
+
+      <!-- Contact Info -->
+      <div class="contact-info reveal-left">
+
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div>
+            <div class="contact-item-label">Email (Professional)</div>
+            <div class="contact-item-value">
+              <a href="mailto:paschal.duru@podiumgroups.com.ng">paschal.duru@podiumgroups.com.ng</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <div class="contact-item-label">Email (CEO Office)</div>
+            <div class="contact-item-value">
+              <a href="mailto:Ceo.poduimgroup@gmail.com">Ceo.poduimgroup@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📩</div>
+          <div>
+            <div class="contact-item-label">Personal Email</div>
+            <div class="contact-item-value">
+              <a href="mailto:PaschalDuru12@yahoo.com">PaschalDuru12@yahoo.com</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <div class="contact-item-label">Phone</div>
+            <div class="contact-item-value">
+              <a href="tel:+2349035925104">+234 903 592 5104</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <div class="contact-item-label">Head Office</div>
+            <div class="contact-item-value">
+              30, Enugu Crescent, Agbara Estate,<br>Ogun State, Nigeria.
+            </div>
+          </div>
+        </div>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/2349035925104" target="_blank" rel="noopener" class="whatsapp-btn">
+          <span style="font-size:1.4rem;">💬</span>
+          Chat on WhatsApp
+        </a>
+
+        <!-- Map placeholder -->
+        <div class="map-placeholder">
+          <div class="map-icon">📍</div>
+          <div class="map-address">
+            30, Enugu Crescent, Agbara Estate<br>Ogun State, Nigeria
+          </div>
+          <a href="https://maps.google.com/?q=Agbara+Estate,+Ogun+State,+Nigeria"
+             target="_blank" rel="noopener"
+             style="margin-top:10px; font-size:0.82rem; color:var(--gold); text-decoration:underline;">
+            View on Google Maps →
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Contact Form -->
+      <div class="reveal-right">
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="name">Full Name</label>
+              <input class="form-input" type="text" id="name" name="name"
+                     placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email Address</label>
+              <input class="form-input" type="email" id="email" name="email"
+                     placeholder="your@email.com" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="subject">Subject</label>
+            <input class="form-input" type="text" id="subject" name="subject"
+                   placeholder="Project inquiry / Partnership / General" required />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-textarea" id="message" name="message"
+                      placeholder="Tell me about your project or how I can help…" required></textarea>
+          </div>
+
+          <button type="submit" class="btn-gold ripple-container" style="width:100%; justify-content:center;">
+            <span>Send Message</span>
+            <span>→</span>
+          </button>
+
+          <div id="form-success" class="form-success">
+            ✅ Thank you! Your message has been sent. I'll get back to you soon.
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     FOOTER
+     ═══════════════════════════════════════════════ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <img src="https://podiumgroups.com.ng/wp-content/uploads/2024/07/cropped-logo3.png"
+             alt="Podium Industries Limited"
+             onerror="this.style.display='none'" />
+        <p>
+          Paschal Duru is the Founder &amp; CEO of Podium Industries Limited — Nigeria's foremost
+          electronic security, safety systems, and construction company.
+        </p>
+        <div class="social-icons">
+          <a href="https://wa.me/2349035925104" target="_blank" rel="noopener" class="social-icon" aria-label="WhatsApp">💬</a>
+          <a href="mailto:paschal.duru@podiumgroups.com.ng" class="social-icon" aria-label="Email">✉️</a>
+          <a href="https://www.podiumgroups.com.ng" target="_blank" rel="noopener" class="social-icon" aria-label="Website">🌐</a>
+          <a href="tel:+2349035925104" class="social-icon" aria-label="Phone">📞</a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h4 class="footer-col-title">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#values">Leadership</a></li>
+          <li><a href="#company">Company</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div>
+        <h4 class="footer-col-title">Services</h4>
+        <ul class="footer-links">
+          <li><a href="#company">Building Construction</a></li>
+          <li><a href="#company">Road Construction</a></li>
+          <li><a href="#company">CCTV Systems</a></li>
+          <li><a href="#company">Fire Protection</a></li>
+          <li><a href="#company">Access Control</a></li>
+          <li><a href="#company">Fence Electrification</a></li>
+          <li><a href="#company">Wooden Pallets</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <h4 class="footer-col-title">Contact</h4>
+        <ul class="footer-links">
+          <li><a href="tel:+2349035925104">+234 903 592 5104</a></li>
+          <li><a href="mailto:paschal.duru@podiumgroups.com.ng" style="word-break:break-all;">paschal.duru@podiumgroups.com.ng</a></li>
+          <li><a href="mailto:Ceo.poduimgroup@gmail.com">Ceo.poduimgroup@gmail.com</a></li>
+          <li style="color:var(--silver); font-size:0.88rem; margin-top:8px;">Mon – Sat<br>7:30 AM – 7:30 PM</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">
+        &copy; 2025 <span>Paschal Duru</span> · Podium Industries Limited. All rights reserved.
+      </p>
+      <p class="footer-copy">
+        Built for excellence · <span>Agbara Estate, Ogun State, Nigeria</span>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="js/main.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/contact.js"></script>
+
+</body>
+</html>
